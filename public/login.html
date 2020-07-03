@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="css/style-login.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
+    <title>Login form</title>
+</head>
+<body>
+   <div id="container">
+        <div id="header">
+            <h1>Beauté.com</h1>
+            <h2>Login or create a new account now</h2>
+        </div>
+        <div id="form">
+            <form name="frmLogin" action="#" id="frmLogin" method="POST"
+            onsubmit="return validate()">
+                <h1>Login</h1>
+                <input type="text" name="username"
+                id="txtUsernameLog" placeholder="Username" required>
+                <input type="password" name="password" id="txtPasswordLog"
+                placeholder="Password" required>
+                <span class="error" id="errLogin"></span>
+                <button type="submit" class="btn-text" name="btnLogin">
+                    Login
+                </button>
+                <a href="" id="forget-pass">Forget password?</a>
+                <p id="create-new-acc"><span>Don't have an account?</span> 
+                    Create a new one <a href = "/signup" id="link">now</a></p>
+            </form>
+       </div>
+   </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+   <!-- <script defer src="javascript/login.js"></script> -->
+   
+</body>
+</html>

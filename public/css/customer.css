@@ -1,0 +1,636 @@
+body {
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    background: #fff;
+    margin: 0px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: 20% 1fr 20%;
+    grid-template-rows: 1fr 205px;
+    width: 100%;
+}
+
+.header {
+    height: auto;
+    background: white;
+    position: fixed;
+    opacity: 0.7;
+}
+
+.space {
+    height: 700px;
+}
+
+div {
+    display: block;
+}
+
+h3 {
+    font-size: 28px;
+    color: #363636;
+    margin: 18px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    font-family: 'Muli', sans-serif;
+}
+
+h2 {
+    padding-top: 20px;
+    padding-left: 40px;
+    text-transform: uppercase;
+    font-family: 'Francois One', sans-serif;
+}
+
+h2 {
+    padding-top: 20px;
+    padding-left: 38px;
+    font-family: 'Francois One', sans-serif;
+    text-transform: uppercase;
+}
+
+#line {
+    background: #363636;
+    height: 1.5px;
+    margin: 0px;
+    padding: 0px;
+}
+
+h4 {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 6px;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+#menu {
+    padding-left: 40px;
+    padding-top: 20px;
+}
+
+#menu li {
+    /* background-color: teal; */
+    color: white;
+    height: 20px;
+    width: 100%;
+}
+
+#menu li {
+    /* background-color: teal; */
+    width: 100%;
+    margin: 8px;
+}
+
+p {
+    font-family: Arial;
+    color: #363636;
+}
+
+#menu li a:link,
+#menu li a:active,
+#menu li a:visited {
+    /* color: #95a5a6; */
+    color: black;
+    font-size: 14px;
+    font-family: 'Muli', sans-serif;
+}
+
+#menu li a:link,
+#menu li a:active,
+#menu li a:visited {
+    /* color: #95a5a6; */
+    color: #888888;
+    font-size: 16px;
+    font-family: 'Muli', sans-serif;
+}
+
+#menu li:nth-child(2) {
+    width: 100%;
+}
+
+#menu li a:hover {
+    color: #c0392b;
+    font-weight: bold;
+}
+
+#menu li.bold a {
+    color: #363636;
+    font-weight: bold;
+}
+
+#menu li .sub-menu>li {
+    width: 100%;
+    height: 22px;
+    line-height: 22px;
+    /* background: pink; */
+}
+
+#menu li .sub-menu a:link,
+#menu li .sub-menu a:active,
+#menu li .sub-menu a:visited {
+    /* color: #b5c7c9; */
+    color: rgb(117, 108, 108);
+    font-size: 14px;
+    font-family: 'Muli', sans-serif;
+    padding-left: 20px;
+}
+
+#menu li .sub-menu a:hover {
+    color: #c0392b;
+    font-weight: bold;
+}
+
+#main {
+    display: grid;
+    grid-template-rows: 1fr 40px;
+}
+
+.note {
+    color: #c50000;
+}
+
+#box {
+    height: auto;
+}
+
+.thanksBox {
+    display: none;
+    text-align: center;
+    padding: 24px;
+    background: #f5f5f5;
+    font-family: Arial;
+    box-shadow: 0 1px 1px 0 #f5f5f536;
+    margin-bottom: 50px;
+}
+
+.thanksBox .returnBtn {
+    color: white;
+    background: #222222;
+    padding: 15px;
+    width: auto;
+    cursor: pointer;
+    border: none;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.contactBox {
+    text-align: center;
+    /* border: 10px solid #f5f5f5; */
+    padding: 20px;
+    background: #f5f5f5;
+    font-family: Arial;
+    box-shadow: 0 1px 1px 0 #f5f5f536;
+}
+
+.icon {
+    height: 100px;
+    width: auto;
+    margin-bottom: 15px;
+}
+
+.writeMsg {
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.p {
+    font-weight: bold;
+}
+
+form {
+    display: block;
+}
+
+#contactForm .msg .note {
+    text-align: right;
+}
+
+#contactForm .contactBox {
+    border: 1px solid #aaaaaa;
+    background: white;
+    padding: 30px 39px 30px;
+    margin-top: 18px;
+    display: grid;
+}
+
+#contactForm .contactBox ul li {
+    float: left;
+    width: 50%;
+    min-height: 55px;
+    margin-top: 15px;
+    text-align: left;
+}
+
+ul {
+    display: block;
+}
+
+#contactForm .contactBox ul li.halfCellL .dl {
+    padding-right: 13.4%;
+}
+
+#contactForm .contactBox ul li.halfCellR .dl {
+    padding-left: 13.4%;
+}
+
+#contactForm .contactBox ul li.wideCell {
+    width: 100%;
+}
+
+#contactForm .contactBox ul li .dl {
+    overflow: hidden;
+}
+
+#contactForm .contactBox ul li .dl .dt {
+    float: left;
+    width: 170px;
+    padding: 7px 15px 0 0;
+    font-size: 13px;
+    font-weight: bold;
+    color: #222222;
+}
+
+#contactForm .contactBox ul li .dl .dd {
+    overflow: hidden;
+}
+
+#contactForm .contactBox ul li .dl .dd .select {
+    display: block;
+    height: 29px;
+    width: 100%;
+    font-size: 13px;
+    color: #666666;
+    border: none;
+    border-bottom: 1px solid #aaaaaa;
+}
+
+#contactForm .contactBox ul li .dl .dd .input-text {
+    display: block;
+    height: 28px;
+    width: 100%;
+    font-size: 13px;
+    color: #666666;
+    border: none;
+    border-bottom: 1px solid #aaaaaa;
+}
+
+#contactForm .contactBox ul li .dl .dd .textarea {
+    display: block;
+    width: 100%;
+    height: 100px;
+    line-height: 1.4;
+    font-size: 13px;
+    color: #666666;
+    font-family: Arial;
+    border: none;
+    border-bottom: 1px solid #aaaaaa;
+}
+
+#contactForm .contactBtn {
+    text-align: center;
+    margin: 24px;
+}
+
+#contactForm .contactBtn .sendBtn {
+    color: white;
+    background: #3498db;
+    border-radius: 5px;
+    padding: 15px;
+    width: 20%;
+    cursor: pointer;
+    border: none;
+    text-align: center;
+    opacity: .7;
+}
+
+#contactForm .contactBtn .sendBtn:hover {
+    opacity: 1;
+}
+
+#contactForm .writeMsg {
+    width: 100%;
+}
+
+#contactForm .writeMsg .p {
+    margin-right: 15px;
+}
+
+#faq .faq-area {
+    padding-bottom: 30px;
+}
+
+#faq .faq_area ul {
+    position: relative;
+    border-top: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+    margin-bottom: 10%;
+    font-family: Arial;
+}
+
+#faq .faq_area ul h5 {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+#faq .q_cont {
+    display: block;
+    padding: 7px 30px 8px 30px;
+    background-image: url(../images/question.png);
+    background-repeat: no-repeat;
+    background-size: 14px 14px;
+    background-position: left;
+    /* line-height: 20px; */
+}
+
+#faq .q_cont a {
+    font-size: 16px;
+    font-family: Arial;
+    color: #444444;
+}
+
+#faq .q_cont a:hover {
+    color: #888888;
+}
+
+#faq .q_cont .hideAns {
+    width: 12px;
+    height: 12px;
+    float: right;
+    padding-top: 5px;
+    display: none;
+    cursor: pointer;
+}
+
+#faq .faq_area ul li .answer {
+    display: none;
+    margin-top: -1px;
+    padding: 7px 30px 13px 30px;
+    border-bottom: 1px solid #e5e5e5;
+    background: #f3f1e6;
+    font-size: 15px;
+    color: #666666;
+}
+
+#guide-area {
+    min-height: 350px;
+    margin-bottom: 6%;
+}
+
+#guide-area ul h4 {
+    color: #222222;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#guide-area ul {
+    position: relative;
+    font-family: Arial;
+    border-bottom: 1px solid #cccccc;
+    padding: 15px;
+    color: #888888;
+}
+
+.green {
+    margin-top: 2%;
+    color: rgb(18, 90, 18);
+}
+
+.logo-icon {
+    padding-top: 30px;
+    /* position: fixed; */
+}
+
+button {
+    background: white;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.search-box {
+    /* padding-left: 60px; */
+    border-bottom: 1px solid black;
+    float: right;
+    height: 25px;
+    line-height: 25px;
+}
+
+.search-txt {
+    border: none;
+    /* float:left; */
+}
+
+.search-txt:hover {
+    border: none;
+}
+
+.account {
+    color: black;
+    float: right;
+    height: 35px;
+    line-height: 35px;
+}
+
+.account {
+    float: right;
+    height: 35px;
+    line-height: 35px;
+}
+
+.account a:link {
+    color: black;
+}
+
+.account a:hover {
+    font-weight: bold;
+}
+
+.account i {
+    color: black;
+    padding-right: 8px;
+}
+
+.account i {
+    padding-right: 8px;
+}
+
+.cart {
+    clear: both;
+    float: right;
+    letter-spacing: 1px;
+}
+
+.cart i {
+    color: black;
+    padding-right: 8px;
+}
+
+.cart i {
+    padding-right: 8px;
+}
+
+.cart a {
+    color: black;
+}
+
+.cart a:link {
+    color: black;
+}
+
+.cart a:hover {
+    color: black;
+    font-weight: bold;
+}
+
+.cart a:hover {
+    font-weight: bold;
+}
+
+h5 {
+    font-weight: normal;
+    font-family: 'Old Standard TT', serif;
+}
+
+.price {
+    font-size: 12px;
+}
+
+.colour {
+    font-size: 12px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#next-page {
+    /* background: pink; */
+    padding-top: 20px;
+    padding-left: 550px;
+}
+
+#next-page a {
+    font-size: 17px;
+    background-color: #ecf0f1;
+    color: #3498db;
+    padding: 5px;
+}
+
+.footer {
+    background: gray;
+    grid-column: span 3;
+    font-size: 10px;
+    background-color: black;
+    padding: 20px 0;
+    margin-top: 10px;
+}
+
+.footer {
+    background: gray;
+    grid-column: span 3;
+    font-size: 10px;
+    background-color: black;
+    padding: 20px 0;
+    margin-top: 10px;
+    min-height: 220px;
+    height: auto;
+    clear: both;
+}
+
+.footer table {
+    display: inline;
+    padding: 0 2px;
+    font-family: 'Slabo 27px', serif;
+}
+
+table {
+    /* padding: 0px;
+margin: 0 100px; */
+    font-size: 0.5em;
+    /* width: 80%; */
+}
+
+table tr td a {
+    text-decoration: none;
+    color: rgb(182, 171, 171);
+    font-size: 15px;
+}
+
+td {
+    font-size: 14px;
+    color: white;
+    padding: 0px 140px;
+}
+
+.app i {
+    color: white;
+    font-size: 3em;
+}
+
+.app a {
+    padding: 0px 10px;
+}
+
+.app {
+    margin: 35px 500px;
+}
+
+.app {
+    /* margin: 35px 500px; */
+    margin: 35px;
+    padding-top: 30px;
+    text-align: center;
+    /* display: flex; */
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    /* grid-template-rows: 1fr 1fr 1fr 30px; */
+    grid-gap: 10px;
+    /* background: pink; */
+    padding-left: 10px;
+}
+
+.content img {
+    width: 100%;
+    height: 55%;
+}
+
+#about {
+    /* padding-top: 50px;
+    padding-bottom: 50px; */
+    color: #555;
+}
+
+#about .btn {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.about-content {
+    padding-top: 20px;
+    /* padding-bottom: 20px; */
+}
+
+.skills-bar p {
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.progress-bar {
+    border-radius: 16px;
+}
+
+#aboutus {
+    text-align: center;
+}

@@ -1,0 +1,18 @@
+<div class="sidebar">
+    <ul class="logo-icon">
+        <li class="search-box">
+            <form action="/search" method="POST">
+                <input class="search-txt" type="search" name="search" placeholder="Search..." />
+                <button class="search-btn" href=""><i class="fa fa-search"></i></button>
+            </form>
+        </li>
+        <li class="account">
+            <a href="/login"><i class="fa fa-user"></i> <%=login%></a>
+        </li>
+        <li class="cart">
+            <a href="/logout">
+                <%=logout%>
+            </a>
+        </li>
+    </ul>
+</div>

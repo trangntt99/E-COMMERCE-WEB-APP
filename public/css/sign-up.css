@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(../images/karly-jones-1308198-unsplash.jpg);
+    background-size: cover;
+}
+#container{
+    width: 100%;
+}
+#header{
+    text-align: center;
+    color: black;
+    font-family: serif;
+    font-size: 10px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+#signUp-form{
+    background-color: rgba(255, 235, 205, .75);
+    width: 500px;
+    height: 350px;
+    margin: auto;
+    padding:20px;
+}
+#title{
+    text-align: center;
+    color: darkcyan;
+    text-transform: uppercase;
+    font-family: Playfair Display, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+}
+#terms {
+    margin: 20px 5px 20px 0;
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+}
+#btn-sign-up{
+    background-color: darkcyan;
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+    width: 300px;
+    display: block;
+    margin: auto;
+    text-transform: uppercase;
+}
+
+#month-form, #day-form{
+    padding-right: 20px;
+}
+
+.error{
+    color: red;
+    font-size: 17px;
+    font-family: Playfair Display, sans-serif;
+    display: block;
+    text-align: center;
+}

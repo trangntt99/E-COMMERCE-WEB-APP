@@ -1,0 +1,133 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(../images/karly-jones-1308198-unsplash.jpg);
+    background-size: cover;
+}
+#container{
+    /* background-color: orange; */
+    width: 100%;
+    height: 620px;
+}
+#header{
+    /* background-color: coral; */
+    text-align: center;
+}
+#header h2{
+    color: white;
+    font-family: Playfair Display, sans-serif;
+    font-weight: lighter;
+}
+#form{
+    background-color: rgba(255, 235, 205, .75);
+    width: 400px;
+    min-height: 400px;
+    margin: auto;
+    padding: 10px;
+    font-family: sans-serif;
+}
+/* #frmLogin{
+    width: 300px;
+    height: 300px;
+    margin: auto;
+} */
+
+/* #frmSignUp{
+     background-color: antiquewhite;
+     width: 250px;
+     height: 400px;
+} */
+#form input[type=text], #form input[type=password], .btn-text{
+    display: block;
+    margin: auto;
+    margin-top: 25px;
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+    width: 350px; 
+    height: 20px;
+    text-decoration: none;
+}
+#form h1, #form h2{
+    text-transform: uppercase;
+    font-size: 20px;
+    text-align: center;
+    color: darkcyan;
+    font-family: 'Playfair Display', Times, serif;
+}
+
+.btn-text{
+    text-align: center;
+    color: white;
+    opacity: .75;
+    height: 30px;
+    text-transform: uppercase;
+}
+
+#forget-pass{
+    display: block;
+    text-align: center;
+    color: crimson;
+    margin: 10px;
+    opacity: .75;
+    font-style: italic;
+    font-family: 'Playfair Display', Times, serif;
+    font-size: 20px;
+}
+
+#create-new-acc{
+    display: block;
+    text-align: center;
+    color: darkcyan;
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: Playfair Display, sans-serif;
+    font-weight: lighter;
+}
+
+#link{
+    display: block;
+    text-align: center;
+    color: darkcyan;
+    opacity: .75;
+    font-size: 20px;
+    font-style: italic;
+    font-family: Playfair Display, sans-serif;
+    font-weight: bold;
+}
+
+#terms {
+    margin: 20px 5px 20px 0;
+    display: block;
+    text-align: center;
+    font-size: 15px;
+    font-family: Playfair Display, serif;
+}
+button{
+    background-color: darkcyan;
+    cursor: pointer;
+    font-size: 15px;
+}
+/* #fb{
+    background-color: #3b5998;
+}
+#twitter{
+    background-color: #1dcaff;
+}
+#Gmail{
+    background-color: #db4437;
+} */
+#sign{
+    background-color: darkcyan;
+}
+#form a:hover, button:hover{
+    opacity: 1.2;
+}
+.error{
+    color: red;
+    font-size: 17px;
+    font-family: Playfair Display, sans-serif;
+    display: block;
+    text-align: center;
+    margin: 5px;
+}

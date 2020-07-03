@@ -1,0 +1,129 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    background-image: url('../images/bulb.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 577px;
+    /* position: absolute; */
+}
+
+#container{
+    width: 100%;
+    height: 577px;
+    display: grid;
+    grid-template-rows: 90px 1fr 70px;
+    /* background:pink; */
+}
+
+#header{
+    /* background:white; */
+    width: 35%;
+    padding-top: 35px;
+    /* padding-left: 700px; */
+    padding-left: 400px;
+}
+
+h1{
+    font-size: 4.5em;
+    font-style: italic;
+    /* font-family: 'Shadows Into Light', cursive; */
+    font-family: 'Cookie', cursive;
+    font-weight: lighter;
+    text-align: center;
+    /* text-transform: uppercase; */
+    /* color: #bdc3c7; */
+    color: black;
+}
+
+#menu{
+    width: 35%;
+    padding-top: 40px;
+    /* padding-left: 700px; */
+    padding-left: 400px;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style-type: none;
+}
+
+ul{
+    padding-left: 50px;
+}
+
+ul li{
+    text-align: center;
+    padding: 10px;
+    width: 80%;
+    /* background: pink; */
+}
+
+ul li a{
+    font-size: 2em;
+    /* color: #bdc3c7; */
+    color: black;
+    /* font-family: 'PT Serif', serif; */
+    font-family: 'Amatic SC', cursive;
+
+    /* color:black; */
+
+}
+
+ button{
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+
+}
+
+form{
+    width: 210px;
+    margin-left: 50px;
+    padding-top:10px;
+    border-bottom: 2px solid black;
+} 
+
+
+.search-txt {
+    border: none;
+    background: none;
+    color: black;
+    outline: none;
+    padding-left: 5px;
+    font-weight:bolder;
+    font-size: 13px;
+}
+b{
+    font-size: 1.7em;
+    font-family: 'Amatic SC', cursive;
+    /* color: #bdc3c7; */
+    color:black;
+
+}
+
+.search-btn{
+    font-weight: normal;
+    font-size: 15px;
+} 
+
+
+#footer{
+    /* background: green; */
+    /* padding-left: 890px; */
+    /* padding-left: 190px; */
+    padding-left: 590px;
+}
+
+img{
+    color: #bdc3c7;
+    /* width: 60px; */
+    background: none;
+}

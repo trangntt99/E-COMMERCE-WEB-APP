@@ -1,0 +1,329 @@
+body {
+    box-sizing: border-box;
+    font-family: 'PT Serif', 'Helvetica', 'Arial';
+    background: #fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: 20% 1fr 20%;
+    grid-template-rows: 1fr 205px;
+    width: 100%;
+}
+
+.header {
+    height: auto;
+    background: white;
+    position: fixed;
+}
+
+.space {
+    height: 700px;
+}
+
+h2 {
+    padding-top: 20px;
+    padding-left: 40px;
+    text-transform: uppercase;
+    font-family: 'Francois One', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+#menu {
+    padding-left: 40px;
+    padding-top: 20px;
+}
+
+#menu li {
+    /* background-color: teal; */
+    color: white;
+    height: 20px;
+    width: 100%;
+}
+
+#menu li:nth-child(2) {
+    height: 90px;
+    width: 100%;
+}
+
+#menu li a:link,
+#menu li a:active,
+#menu li a:visited {
+    /* color: #95a5a6; */
+    color: black;
+    font-size: 14px;
+    font-family: 'Muli', sans-serif;
+}
+
+#menu li a:hover {
+    color: #c0392b;
+    font-weight: bold;
+}
+
+
+/* #menu li a:hover{
+    color: palevioletred;
+} */
+
+#menu li .sub-menu>li {
+    width: 100%;
+    height: 22px;
+    line-height: 22px;
+    /* background: pink; */
+}
+
+#menu li .sub-menu a:link,
+#menu li .sub-menu a:active,
+#menu li .sub-menu a:visited {
+    /* color: #b5c7c9; */
+    color: rgb(117, 108, 108);
+    font-size: 14px;
+    font-family: 'Muli', sans-serif;
+    padding-left: 20px;
+}
+
+#menu li .sub-menu a:hover {
+    color: #c0392b;
+    font-weight: bold;
+}
+
+
+/* #menu li .sub-menu li a:hover{
+    color: palevioletred;
+} */
+
+#main {
+    display: grid;
+    grid-template-rows: 1fr 40px;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    /* grid-template-rows: 1fr 1fr 1fr 30px; */
+    grid-gap: 10px;
+    /* background: pink; */
+    padding-left: 10px;
+}
+
+.content img {
+    width: 100%;
+    height: 55%;
+}
+
+.logo-icon {
+    padding-top: 30px;
+    /* position: fixed; */
+}
+
+button {
+    background: white;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.search-box {
+    /* padding-left: 60px; */
+    border-bottom: 1px solid black;
+    float: right;
+    height: 25px;
+    line-height: 25px;
+}
+
+.search-txt {
+    border: none;
+    /* float:left; */
+}
+
+.search-txt:hover {
+    border: none;
+}
+
+.account {
+    color: black;
+    float: right;
+    height: 35px;
+    line-height: 35px;
+}
+
+.account a:link {
+    color: black;
+}
+
+.account a:hover {
+    font-weight: bold;
+}
+
+.account i {
+    color: black;
+    padding-right: 8px;
+}
+
+.cart {
+    clear: both;
+    float: right;
+    letter-spacing: 1px;
+}
+
+.cart i {
+    color: black;
+    padding-right: 8px;
+}
+
+.cart a {
+    color: black;
+}
+
+.cart a:hover {
+    color: black;
+    font-weight: bold;
+}
+
+h5 {
+    font-weight: normal;
+    font-family: 'Old Standard TT', serif;
+}
+
+#left-sidebars p {
+    margin-bottom: 10px;
+}
+
+.price {
+    font-size: 12px;
+}
+
+.colour {
+    font-size: 12px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#next-page {
+    /* background: pink; */
+    padding-top: 20px;
+    padding-left: 550px;
+}
+
+#next-page a {
+    font-size: 17px;
+    background-color: #ecf0f1;
+    color: #3498db;
+    padding: 5px;
+}
+
+.footer {
+    background: gray;
+    grid-column: span 3;
+    font-size: 10px;
+    background-color: black;
+    padding: 20px 0;
+    margin-top: 10px;
+}
+
+.footer table {
+    display: inline;
+    padding: 0 2px;
+    font-family: 'Slabo 27px', serif;
+}
+
+table {
+    /* padding: 0px;
+    margin: 0 100px; */
+    font-size: 0.5em;
+    /* width: 80%; */
+}
+
+table tr td a {
+    text-decoration: none;
+    color: rgb(182, 171, 171);
+    font-size: 15px;
+}
+
+td {
+    font-size: 14px;
+    color: white;
+    padding: 0px 140px;
+}
+
+.app i {
+    color: white;
+    font-size: 3em;
+}
+
+.app a {
+    padding: 0px 10px;
+}
+
+.app {
+    margin: 35px 500px;
+}
+
+#headers {
+    padding-left: 200px;
+}
+
+#left-sidebars {
+    width: 631px;
+    float: left;
+}
+
+h1 {
+    float: left;
+    margin: 21px 0 0 25px;
+}
+
+h1,
+h3 {
+    font-family: 'PT Sans', 'Helvetica', 'Arial';
+}
+
+#top-color-splash {
+    width: 100%;
+    height: 4px;
+    background: #00CED1;
+}
+
+.normal-wrapper {
+    width: 600px;
+    margin: 0 auto;
+    padding: 15px 40px;
+    overflow: auto;
+}
+
+#navbar {
+    list-style-type: none;
+    margin: 29px 0 0 0;
+    padding: 0;
+    float: right;
+    font-size: 16pt;
+}
+
+#navbar li {
+    display: inline;
+}
+
+#navbar li a:link,
+#navbar li a:visited,
+#navbar li a:active {
+    text-decoration: none;
+    color: #000000;
+    padding: 0 16px 0 10px;
+    margin: 0;
+    border-right: 2px solid #B4B4B4;
+}
+
+#navbar li a:hover {
+    color: #00CED1;
+}

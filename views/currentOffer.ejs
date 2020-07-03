@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Slabo+27px&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/logoicon.png" />
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=PT+Serif" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Satisfy|Swanky+and+Moo+Moo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/offer.css" />
+
+    <title>Cosmetic</title>
+
+</head>
+
+<body>
+    <div id="container">
+        <div class="header">
+            <h2>Beauté</h2>
+            <ul id="menu">
+                <li><a href="/">Home</a></li>
+                <li><a href="">Product</a>
+                    <ul class="sub-menu">
+                        <li><a href="/makeup">Make up</a></li>
+                        <li><a href="/perfume">Perfume</a></li>
+                        <li class="last-child"><a href="/skincare">Skin care</a></li>
+                    </ul>
+                </li>
+                <li><a href="">Collection</a></li>
+                <li><a href="" class="last-link">About us</a></li>
+            </ul>
+        </div>
+        <div id="space"></div>
+        <div id="main">
+            <img src="images/Sale.jpg" width="700" height="400" class="img-offer"><br>
+            <div class="sale-content">
+                <figure class="figure">
+                    <img src="images/Trésor Midnight Rose.png" class="figure-img img-fluid rounded">
+                    <figcaption class="figure-caption">
+                        <label class="name-product">Trésor Midnight Rose</label><br>
+                        <del class="price-product">$400</del>
+                        <span class="price-sale">$200</span><br>
+                        <span class="price-reduce">-50% off</span>
+                    </figcaption>
+                </figure>
+                <figure class="figure">
+                    <img src="images/Miracle Blossom.png" class="figure-img img-fluid rounded">
+                    <figcaption class="figure-caption">
+                        <label class="name-product">Miracle Blossom</label><br>
+                        <del class="price-product">$350</del>
+                        <span class="price-sale">$200</span><br>
+                        <span class="price-reduce">-39% off</span>
+                    </figcaption>
+                </figure>
+                <figure class="figure">
+                    <img src="images/LAVENDER EXTREME.png" class="figure-img img-fluid rounded">
+                    <figcaption class="figure-caption">
+                        <label class="name-product">Lavender Extreme</label><br>
+                        <del class="price-product">$200</del>
+                        <span class="price-sale">$150</span><br>
+                        <span class="price-reduce">-20% off</span>
+                    </figcaption>
+                </figure>
+                <figure class="figure">
+                    <img src="images/J'adore.png" class="figure-img img-fluid rounded">
+                    <figcaption class="figure-caption">
+                        <label class="name-product">J'adore</label><br>
+                        <del class="price-product">$600</del>
+                        <span class="price-sale">$400</span><br>
+                        <span class="price-reduce">-20% off</span>
+                    </figcaption>
+                </figure>
+                <figure class="figure">
+                    <img src="images/N°5 L'EAU.png" class="figure-img img-fluid rounded">
+                    <figcaption class="figure-caption">
+                        <label class="name-product">N°5 L'EAU</label><br>
+                        <del class="price-product">$500</del>
+                        <span class="price-sale">$250</span><br>
+                        <span class="price-reduce">-50% off</span>
+                    </figcaption>
+                </figure>
+            </div><br>
+            <div class="media">
+                <img src="images/Progrès Eye.png" class="mr-4" width="30%" height="40%">
+                <div class="media-body align-self-center">
+                    <h5 class="mt-0">Progrès Eye</h5><br>
+                    <p class="offer-text">
+                        <span class="title">Buy 5 products</span><br><br> Receive the all new Progrès Eye Cream for free<br><br><br>
+                        <span class="offer-day">Only 10 days</span>
+                    </p>
+                </div>
+            </div>
+            <div class="makeup-container">
+                <img src="images/makeup.jpg" width="600" height="300" class="img-fluid">
+                <div class="makeup-text">
+                    <span class="makeup-title">My Palette</span><br>
+                    <span class="makeup-cap">
+                        Create your own makeup style
+                    </span>
+                </div>
+            </div>
+        </div>
+        <sidebar>
+            <% include partial/sidebar %>
+        </sidebar>
+    </div>
+    <footer>
+        <% include partial/footer %>
+    </footer>
+</body>
+
+</html>

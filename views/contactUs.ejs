@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Slabo+27px&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/rose.png" />
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=PT+Serif" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Satisfy|Swanky+and+Moo+Moo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+    <link href="css/customer.css" rel="stylesheet">
+    <script defer src="javascript/script.js"></script>
+    <title>CUSTOMERS SERVICE</title>
+</head>
+
+<body>
+    <div id="container">
+        <div class="header">
+            <h2>Beauté</h2>
+            <ul id="menu">
+                <li><a href="/fags">FAQs</a></li>
+                <li class="bold"><a href="/contact">Contact Us</a></li>
+                <li><a href="/membership">Membership guide</a></li>
+            </ul>
+        </div>
+        <div id="space"></div>
+        <div id="main">
+            <h3>Contact Us</h3>
+            <div id="line"></div>
+            <div class="contactBox">
+                <img src="images/writeToUs.png" class="icon">
+                <h4>Write To Us</h4>
+                <p>Ask questions with the customer request form</p>
+            </div>
+            <div class="thanksBox">
+                <img src="images/check.png" class="icon">
+                <h4>Sent!</h4>
+                <p>Thankyou for taking your time to contact us.</p>
+                <div class="contactBtn">
+                    <input type="submit" class="returnBtn" onclick="setTimeout(Reload, 900)" value="Return to contact page">
+                </div>
+            </div>
+            <div class="writeMsg">
+                <p class="p">Please complete the following form and press the send button</p><br>
+                <p>You can also check our frequently asked questions section to easily find immediate answers to frequently asked questions.</p>
+            </div>
+            <div id="contactForm">
+                <div class="msg">
+                    <p class="note">* Important</p>
+                </div>
+                <form name="sendMailForm" id="sendMailForm" method="post" action="/vn/vi/counsel/counselComplete.do" novalidate="novalidate">
+                    <div class="contactBox">
+                        <ul>
+                            <li class="halfCellL">
+                                <div class="dl">
+                                    <div class="dt"><span class="required" aria-required="true"><span
+                                                class="note">*</span> Where you're from</span>
+                                    </div>
+                                    <div class="dd">
+                                        <select class="select" name="nationCd" id="nationCd">
+                                            <option value="AU">AUSTRALIA</option>
+
+                                            <option value="CA">CANADA</option>
+
+                                            <option value="IN">INDIA</option>
+
+                                            <option value="JP">JAPAN</option>
+
+                                            <option value="MY">MALAYSIA</option>
+
+                                            <option value="SG">SINGAPORE</option>
+
+                                            <option value="TW">TAIWAN</option>
+
+                                            <option value="TH">THAILAND</option>
+
+                                            <option value="HK">HONG KONG</option>
+
+                                            <option value="ID">INDONESIA</option>
+
+                                            <option value="PH">PHILIPPINES</option>
+
+                                            <option value="VN" selected="">VIET NAM</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="halfCellR">
+                                <div class="dl">
+                                    <div class="dt"><span class="required" aria-required="true"><span
+                                                class="note">*</span> First name</span>
+                                    </div>
+                                    <div class="dd">
+                                        <input type="text" class="input-text" name="fstNm">
+                                        <!-- label class="error">Please enter a first name.</label-->
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="halfCellL">
+                                <div class="dl">
+                                    <div class="dt"><span class="required" aria-required="true"><span
+                                                class="note">*</span> Last name</span>
+                                    </div>
+                                    <div class="dd">
+                                        <input type="text" class="input-text" name="lstNm">
+                                        <!-- label class="error">Please enter a last name.</label-->
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="halfCellR">
+                                <div class="dl">
+                                    <div class="dt"><span class="required" aria-required="true"><span
+                                                class="note">*</span> Email</span>
+                                    </div>
+                                    <div class="dd">
+                                        <input type="text" class="input-text" name="email">
+                                        <!-- label class="error">Please enter an email address.</label-->
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="halfCellL">
+                                <div class="dl">
+                                    <div class="dt"><span class="required" aria-required="true"><span
+                                                class="note">*</span> You care about</span>
+                                    </div>
+                                    <div class="dd">
+                                        <select class="select" name="clCd" id="clCd">
+                                            <option value="CF03">Products</option>
+                                            <option value="CF04">Settings &amp; Security</option>
+                                            <option value="CF06">Store</option>
+                                            <option value="CF07">Others</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="wideCell">
+                                <div class="dl">
+                                    <div class="dt"><span class="required" aria-required="true"><span
+                                                class="note">*</span> Subject</span>
+                                    </div>
+                                    <div class="dd">
+                                        <input type="text" class="input-text" name="ttl" maxlength="60">
+                                        <!-- label class="error">Please enter a subject.</label-->
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="wideCell">
+                                <div class="dl">
+                                    <div class="dt"><span class="required" aria-required="true"><span
+                                                class="note">*</span> Content</span>
+                                    </div>
+                                    <div class="dd">
+                                        <textarea class="textarea" name="cnt"></textarea>
+                                        <!--  label class="error">Please enter a comment.</label-->
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </form>
+                <div class="contactBtn">
+                    <input type="submit" class="sendBtn" onclick="setTimeout(SendRequestForm, 400)" value="Send">
+                </div>
+                <div class="writeMsg">
+                    <p><span class="p">Email us</span>If you have other questions regarding the product or promotion, please contact us <a href="mailto:cs miknguyet99@gmail.com">cs_vn@beaute.com</a></p>
+                </div>
+            </div>
+        </div>
+        <sidebar>
+            <% include partial/sidebar %>
+        </sidebar>
+    </div>
+    <footer>
+        <% include partial/footer %>
+    </footer>
+</body>
+
+</html>

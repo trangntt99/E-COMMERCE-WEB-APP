@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Slabo+27px&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/logoicon.png" />
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=PT+Serif" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Satisfy|Swanky+and+Moo+Moo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+    <link rel="stylesheet" href="css/listproduct.css" />
+    <title>Cosmetic</title>
+
+</head>
+
+<body>
+    <div id="container">
+        <div class="header">
+            <h2>Beauté</h2>
+            <ul id="menu">
+                <li><a href="/">Home</a></li>
+                <li><a href="">Product</a>
+                    <ul class="sub-menu">
+                        <li><a href="/makeup">Make up</a></li>
+                        <li><a href="/perfume">Perfume</a></li>
+                        <li class="last-child"><a href="/skincare">Skin care</a></li>
+                    </ul>
+                </li>
+                <li><a href="/collection">Collection</a></li>
+                <li><a href="/about" class="last-link">About us</a></li>
+            </ul>
+        </div>
+        <div id="space"></div>
+        <div id="main">
+            <div class="content">
+                    <% list.forEach(function(list) { %>
+                <section class="product">
+
+                        <a href="/product/<%= list.name %>" id="img">
+                            <img src="<%=list.image%>" />
+                        </a>
+                        <h5 id="name">
+                            <%= list.name %>
+                        </h5>
+                        <p id="price">
+                            <%= list.price %>
+                        </p>
+                </section>
+
+                        <% }); %>
+
+            </div>
+            <div id="page-move">
+                <div id="return-page">
+                    <a href="/perfume">
+                        <%= previouspage %>
+                    </a>
+                </div>
+                <div id="next-page">
+                    <a href="/perfumenext">
+                        <%= nextpage %>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <sidebar>
+            <% include partial/sidebar %>
+        </sidebar>
+    </div>
+    <footer>
+        <% include partial/footer %>
+    </footer>
+</body>
+
+</html>
