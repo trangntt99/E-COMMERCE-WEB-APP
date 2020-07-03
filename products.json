@@ -1,0 +1,267 @@
+{
+    "products": [{
+            "id": "f01",
+            "type": "fragrance",
+            "name": "Tubéreuses Castane",
+            "description": "Today, Lancôme has appointed some of the greatest contemporary perfumers to pay homage to Lancôme’s founder, Armand Petitjean. The result is Maison Lancôme, a new collection of fragrances that so exquisitely touch upon and carry on Petitjean’s dream, and the essence of the House itself.This new High Perfumery experience takes a creative stance: the very French art of blending. Each fragrance is crafted in the same manner that one composes a wine of the most superior grade (Grand cru), with a combination of varieties, origins, and extractions that are all specially selected according to precise criteria.",
+            "image": "img/Fragrance/Tubéreuses Castane.png",
+            "price": "$198.00"
+        },
+        {
+            "id": "f02",
+            "type": "fragrance",
+            "name": "N°5 L'EAU",
+            "description": "N°5 L’EAU is the N°5 of today. A vibrant abstract floral under the banner of modernity, with freshness at its core. N°5 L’EAU, a praise of simplicity. N°5 L’EAU, the obvious choice. Its minimalist packaging has the iconic silhouette of the fragrance embossed on the cardboard case. Inside, a second box protects the crystal-clear glass bottle. No component spoils this distinct impression. The supreme simplicity of the bottle further accentuated by the contents, gives free rein to the imagination of the woman who chooses this fragrance for her skin.",
+            "image": "img/Fragrance/N°5 L'EAU.png",
+            "price": "$159.00"
+        },
+        {
+            "id": "f03",
+            "type": "fragrance",
+            "name": "COCO MADEMOISELLE",
+            "description": "The quintessence of a great fragrance. This voluptuous, more generous version of the fragrance is surprisingly light and fresh. A feeling of luxuriance is achieved through two exclusive ingredients that form the signature for all CHANEL parfums: Jasmine Absolute and May Rose Absolute. These delicate flowers bursting with confidence are highlighted by a touch of Iris from Florence. The very sensual, amber peach shade of the parfum is revealed in the legendary CHANEL faceted bottle. The neck is sealed with a fine membrane, set off by a few rows of white pearl cotton yarn and a black wax stamp.",
+            "image": "img/Fragrance/COCO MADEMOISELLE.png",
+            "price": "$159.00"
+        },
+        {
+            "id": "f04",
+            "type": "fragrance",
+            "name": "J'adore",
+            "description": "J'adore Eau de Parfum is an invented bouquet, finely crafted down to the last detail, like a custom-made flower. Essence of Ylang-Ylang from the Comoros unfurls its floral-fruity notes and instills a soft exotic touch. Damascus Rose, sophisticated and exuberant, then comes to warm the senses. Last but not least, a duo of Jasmines echo one another in a perfect embrace. Jasmine Grandiflorum from Grasse, the quintessence of a noble floral, exudes its delicate sensuality, tinged with fruit and sun to lend it a jammy character. It works in harmony with the more carnal quality of Indian Jasmine Sambac, &quot;flower of the gods&quot;, with its warm facets of incredibly sensual and enveloping orange blossom.",
+            "image": "img/Fragrance/J'adore.png",
+            "price": "$116.22"
+        },
+        {
+            "id": "f05",
+            "type": "fragrance",
+            "name": "La vie",
+            "description": "La vie est belle introduces a new olfactive story, the first ever iris gourmand. The juice is made with the most precious natural ingredients, a modern interpretation of an oriental fragrance with a twist of gourmand. It entwines the elegance of iris with the strength of Patchouli and the sweetness of a gourmand blend; for an incredible scent with depth and complexity.",
+            "image": "img/Fragrance/La vie est belle.png",
+            "price": "$128.00"
+        },
+        {
+            "id": "f06",
+            "type": "fragrance",
+            "name": "Trésor Rose",
+            "description": "Charming. Mischievous. Desirable. A sexy-sweet blend of raspberry, rose, vanilla and sensual musk for mischievous femininity: Catch my heart if you can!",
+            "image": "img/Fragrance/Trésor Midnight Rose.png",
+            "price": "$88.00"
+        },
+        {
+            "id": "f07",
+            "type": "fragrance",
+            "name": "Rôses Berberanza",
+            "description": "This new High Perfumery experience takes a creative stance: the very French art of blending. Each fragrance is crafted in the same manner that one composes a wine of the most superior grade (Grand cru), with a combination of varieties, origins, and extractions that are all specially selected according to precise criteria.",
+            "image": "img/Fragrance/Rôses Berberanza.png",
+            "price": "$208.00"
+        },
+        {
+            "id": "f08",
+            "type": "fragrance",
+            "name": "ALLURE SENSUELLE",
+            "description": "Like the charismatic, passionate presence of Gabrielle Chanel, ALLURE SENSUELLE is the modern, magnetic fragrance of a true, radiant and intense woman. The floral-soft-Oriental fragrance is revealed in a unique way on every woman — because each woman has her own special allure.",
+            "image": "img/Fragrance/ALLURE SENSUELLE.png",
+            "price": "$135.00"
+        },
+        {
+            "id": "f09",
+            "type": "fragrance",
+            "name": "Ô de L'Orangerie",
+            "description": "Radiant. Serene. Irresistible. Lose yourself in the fragrant orange blossoms of a serene French garden with Ô de L'Orangerie. The fruity-floral scent is radiant with a hint of citrus.",
+            "image": "img/Fragrance/Ô de L'Orangerie.png",
+            "price": "$$66.00"
+        },
+        {
+            "id": "f10",
+            "type": "fragrance",
+            "name": "Miracle Blossom ",
+            "description": "A delicate fruity floral, Miracle Blossom has the tenderness of a bud on the branch of the rose tree, ready to flower and reveal its full character. Metaphor of a young woman who is revealed through the magic encapsulated in a drop of perfume. A signature scent composed like a petaled ascension, combining freshness and florality.",
+            "image": "img/Fragrance/Miracle Blossom.png",
+            "price": "$99.00"
+        },
+        {
+            "id": "f11",
+            "type": "fragrance",
+            "name": "Aromatics Black",
+            "description": "There's infinite mystery in black. A bold undercurrent of precious myrrh carries succulent fruit and exotic floral notes to seductive new depths.",
+            "image": "img/Fragrance/Aromatics in Black.png",
+            "price": "$83.00"
+        },
+        {
+            "id": "f12",
+            "type": "fragrance",
+            "name": "Gucci Bloom",
+            "description": "Debuting the first fragrance developed wholly under Alessandro Michele’s creative vision: a scent designed to celebrate the authenticity, vitality and diversity of women—flourishing in a natural, expressive and individual way. Blended by master perfumer Alberto Morillas under the direction of the House’s Creative Director, Gucci Bloom is created to unfold like its name, capturing the rich scent of a thriving garden filled with an abundance of flowers. Tuberose and jasmine combine with Rangoon Creeper—a unique flower discovered in South India that is being used for the first time in perfumery to create a rich fragrance that transports the wearer to an imaginary garden. The scent is presented in a lacquered bottle, reminiscent of porcelain, in a vintage powder pink shade with a Gucci label appliqué. ",
+            "image": "img/Fragrance/Gucci Bloom eau de parfum.png",
+            "price": "$128.00"
+        },
+        {
+            "id": "m01",
+            "type": "makeup",
+            "name": "Diorskin Nude",
+            "description": "This spring, Diorskin Nude Luminizer illuminating powder reinvents the Diorsnow glow. The skin is delicately highlighted with a shimmering veil for a rosy glow like no other. Adorned with an exclusive motif inspired by Dior runway shows, this luminous powder is housed in an elegant, metallic, cannage couture case.",
+            "image": "img/Make-up/Diorskin Nude Luminizer Rising Stars - Limited Edition.png",
+            "price": "$79.99"
+        },
+        {
+            "id": "m02",
+            "type": "makeup",
+            "name": "Emotion Mascara",
+            "description": "An all-day, waterproof mascara that lengthens and volumizes lashes. This luscious, deep-black mascara creates intense lash looks in a creamy, waterproof, and drama-free formula that lasts throughout the day. A combination of deepest-black carbon and lash-filling powders work to transform lashes with optimal glamour.",
+            "image": "img/Make-up/EMOTIONPROOF MASCARA.png",
+            "price": "$61.00"
+        },
+        {
+            "id": "m03",
+            "type": "makeup",
+            "name": "ROUGE COCO",
+            "description": "In the blink of an eye, ROUGE COCO FLASH shows its true colours through its transparent cap.In a stroke, it applies easily over the lips with its glide-on, melt-away and ultra-hydrating texture which transforms into a shiny oil on contact with the lips for a sensation of absolute comfort.In a flash, it offers an intense high-shine result, owing to a thin coating and glossy oil selected for their ability to reflect the light.",
+            "image": "img/Make-up/ROUGE COCO FLASH.png",
+            "price": "$68.91"
+        },
+        {
+            "id": "m04",
+            "type": "makeup",
+            "name": "LE ROUGE DUO",
+            "description": "The perfect duo for lips with lasting mirror shine. A practical and modern duo packaging. On one side, an intense liquid lip colour. On the other, a shiny and comfortable gloss.",
+            "image": "img/Make-up/LE ROUGE DUO ULTRA TENUE.png",
+            "price": "$63.49"
+        },
+        {
+            "id": "m05",
+            "type": "makeup",
+            "name": "Imperial Mascara",
+            "description": "This innovative mascara gives lashes major length, volume, and definition. The unique brush features a rigid core surrounded by flexible silicone bristles and a unique crown tip that can grab hard-to-reach lashes near the inner corners of eyes and bulk up bottom lashes. The ultra-fine crushed pigments and precise blend of waxes wrap each lash in a weightless, smudge-proof formula that lasts all day. Available in black. Dermatologist and ophthalmologist-tested.",
+            "image": "img/Make-up/ImperialLash Mascara Ink Waterproof.png",
+            "price": "$25.00"
+        },
+        {
+            "id": "m06",
+            "type": "makeup",
+            "name": "Synchro Skin",
+            "description": "An intelligent, long-lasting liquid foundation that beautifully enhances your complexion. This oil-free, buildable base minimises the appearance of fine lines and imperfections for a flawless finish.Formulated with cutting edge Time Match Powder technology, Synchro Skin Lasting Liquid Foundation syncs with skin throughout the day to exude radiance when skin is dry and diffuse light when skin becomes oily.The unique, innovative formula monitors the skin’s moisture levels and adapts accordingly to the skin to regulate moisture, preventing the foundation from creasing, fading or looking patchy.The result; a natural, semi-matte finish that looks just-applied for hours.",
+            "image": "img/Make-up/Synchro Skin Lasting Liquid Foundation.png",
+            "price": "$86.41"
+        },
+        {
+            "id": "m07",
+            "type": "makeup",
+            "name": "LE BLANC",
+            "description": "CHANEL renews its must-have makeup base with an enhanced formula, higher UV protection and new on-the-go packaging. Immediately, skin undertone is corrected. Light is perfectly reflected on the skin surface with improved radiance that lasts up to 8 hours. Create a tailor-made glow with three corrective shades (Rosée, Mimosa, Orchidée) and one illuminating shade (Lys).",
+            "image": "img/Make-up/LE BLANC.png",
+            "price": "$86.96"
+        },
+        {
+            "id": "m08",
+            "type": "makeup",
+            "name": "Hypnôse Eyeshadow",
+            "description": "Lancôme's Hypnose 5-Color Eyeshadow Palettes are expertly put together to offer makeup lovers a complete day-to-night eye color wardrobe, with each palette featuring 5 shades that range from matte to metallic - all intensely pigmented and long-wear to create both classic and playful eyeshadow looks that are easy to apply on the go. Carefully curated colors, step-by-step instructions, and two foam applicators allow for French-inspired, luxury makeup artistry made easy.",
+            "image": "img/Make-up/Hypnôse 5-Color Eyeshadow Palette.png",
+            "price": "$50.00"
+        },
+        {
+            "id": "m09",
+            "type": "makeup",
+            "name": "Le French Glow ",
+            "description": "Get the perfect sun-kissed glow all year round with the new bronzing palettes from Lancôme's limited edition makeup collection. These palettes feature 4 different shades of bronzers for a customized glow.Inspired by the French national motto, Lancôme's Liberty, Equality and Femininity makeup collection pays tribute to the beauty of female empowerment. Dressed in chic packaging with the iconic French colors, Le French Glow bronzing palettes are embossed with the mantras so you can flaunt them as you please.",
+            "image": "img/Make-up/Le French Glow.png",
+            "price": "$45.00"
+        },
+        {
+            "id": "m10",
+            "type": "makeup",
+            "name": "Dior Addict",
+            "description": "Dior Addict Stellar Shine is the next-generation lip shine that delivers 8h of unparalleled shine. The balm glides on with incredible sensoriality and instantly melts in contact with the lips for shine with sheer, vibrant colour. The lip care formula boasts a fine film infused with aloe vera for 24h-hydration and long-lasting comfort, wrapped in the addictive sweet scent of musky vanilla. Day after day, lips are softer, suppler and more hydrated.",
+            "image": "img/Make-up/Dior Addict Stellar Shine.png",
+            "price": "$49.99"
+        },
+        {
+            "id": "s01",
+            "type": "skin care",
+            "name": "SK-II Facial",
+            "description": "SK-II's signature product and highly awarded bestseller with over 90% PITERA™. Essentially unchanged for more than 38 years, our Facial Treatment Essence transforms your skin to crystal clear.",
+            "image": "img/Skin care/SK-II Facial Treatment Essence.png",
+            "price": "$179.00"
+        },
+        {
+            "id": "s02",
+            "type": "skin care",
+            "name": "Facial Mask",
+            "description": "Immerse your skin in intense hydration with our cult-favorite sheet mask. Packed with an exceptional concentration of PITERA™, this face mask takes your skin to the next level of crystal clear.",
+            "image": "img/Skin care/SK-II Facial Treatment Mask.png",
+            "price": "$95.00"
+        },
+        {
+            "id": "s03",
+            "type": "skin care",
+            "name": "Progrès Eye ",
+            "description": "Rich in emollients to hydrate and smooth expression lines, this eye-opening creme conditions and protects the delicate eye area to help you stay younger-looking longer.",
+            "image": "img/Skin care/Progrès Eye.png",
+            "price": "$65.00"
+        },
+        {
+            "id": "s04",
+            "type": "skin care",
+            "name": "Diorskin Serum",
+            "description": "A precursor in the art of natural, Dior innovates and broadens its nude makeup expertise with Diorskin Nude Air: a weightless, ultra-fluid serum as light and beneficial as a breath of fresh air, for an enhanced complexion with sheer correction. Like after a day in the great outdoors, the complexion has all the fresh, radiant beauty of a natural healthy glow.",
+            "image": "img/Skin care/Diorskin Nude Air Serum.png",
+            "price": "$50.73"
+        },
+        {
+            "id": "s05",
+            "type": "skin care",
+            "name": "LA MOUSSE",
+            "description": "A cleanser with a rich cream texture, LA MOUSSE transforms into a generous foam that refreshes skin and gently removes traces of makeup, sunscreen and pollutants. Skin is soft, deeply purified and prepared for the next steps of your skincare ritual.",
+            "image": "img/Skin care/LA MOUSSE.png",
+            "price": "$45.00"
+        },
+        {
+            "id": "s06",
+            "type": "skin care",
+            "name": "Extra Creamy ",
+            "description": "This rich foaming cleanser gently removes impurities and excess surface cells that may contribute to signs of aging. Foams instantly into a delicate, creamy lather, for a fresh clean feel without stripping skin of essential moisture.",
+            "image": "img/Skin care/Extra Creamy Cleansing Foam.png",
+            "price": "$36.00"
+        },
+        {
+            "id": "s07",
+            "type": "skin care",
+            "name": "Moisturizing",
+            "description": "Beauty reboots the energy inside you. Immerse your skin in moisture with this energizing gel cream to counteract dullness, dryness and the appearance of fine lines. A dewy, fresh, non-greasy texture that absorbs quickly into the skin. Get visibly smooth, deeply hydrated skin that glows from within.",
+            "image": "img/Skin care/Moisturizing Gel Cream.png",
+            "price": "$48.00"
+        },
+        {
+            "id": "s08",
+            "type": "skin care",
+            "name": "Lashes & Lips",
+            "description": "Our best-selling makeup remover. Totally tugless formula whisks away makeup. Dissolves and &quot;lifts away&quot; long-wearing makeup, even waterproof mascara. Non-irritating, non-stinging. No parabens. No phthalates. No fragrance. Just happy skin.",
+            "image": "img/Skin care/Take The Day Off™ Makeup Remover For Lids, Lashes & Lips.png",
+            "price": "$19.50"
+        },
+        {
+            "id": "s09",
+            "type": "skin care",
+            "name": "Synactif Nighttime",
+            "description": "Absorbs deeply into the surface of the skin and gives the pampered feeling of a rich hydrating massage. Creates a dramatically smooth, even surface with a texture that looks beautifully polished. Leaves skin exquisitely moisturized and filled with resilience. Stabilizes and rebalances skin following exposure to the daytime environment. Reduces the visibility of fine lines and roughness in the delicate eye area to promote a smooth, resilient look. Offers a feeling of overnight results, providing a sense of smoothness and suppleness emanating from within.",
+            "image": "img/Skin care/Synactif Nighttime Moisturizer.png",
+            "price": "$275.00"
+        },
+        {
+            "id": "s10",
+            "type": "skin care",
+            "name": "Serum Supreme",
+            "description": "Retinol-powered wrinkle serum. Inspired by four dermatological wrinkle procedures to restore skin elasticity. Luxuriously enriched, high-potency retinol dramatically targets deep-set wrinkles. High-potency ingredients work synergistically to effectively hydrate while smoothing and retexturizing skin. Reduces visible signs of damage caused by environmental stress. Glides on with a delightfully silky, rich dewy texture that synthesizes with skin.",
+            "image": "img/Skin care/Wrinkle Smoothing Serum Supreme.png",
+            "price": "$310.00"
+        },
+        {
+            "id": "s11",
+            "type": "skin care",
+            "name": "TONIQUE CONFORT",
+            "description": "This silky-soft moisturizing toner immediately rehydrates and gently purifies skin. The instantly soothing formula made with Honey and Sweet Almond Extract gives skin a soft, fresh, clean and incredibly comfortable feeling.",
+            "image": "img/Skin care/TONIQUE CONFORT.png",
+            "price": "$52.00"
+        }
+    ]
+}
